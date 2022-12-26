@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  padding-inline: 3rem;
+}
+
+.userImg {
+  border-radius: 50%;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .userImg {
+    max-width: 35%;
+  }
+}
+
+.link-icon {
+  display: block;
+  text-align: center;
+  font-size: 1000%;
+}
+
+.linklist {
+  padding: 1rem;
+  height: 100%;
+}
+
+.Link {
+  padding-inline: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s ease-in-out;
+}
+
+.Link:hover {
+  background-color: rgb(205, 205, 205);
+  color: #000;
+}
+
+.linkanchor {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.apmt {
+  gap: 1rem;
+}
+
+.apmt input {
+  padding-top: 1rem !important;
+  display: block;
+}
+
+select:required:invalid {
+  color: gray;
+}
+option[value=""][disabled] {
+  display: none;
+}
+option {
+  color: black;
+}
+
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button a:hover {
+  color: #fff;
+}
+
+.edit-user-info {
+  
+}
